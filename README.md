@@ -2,4 +2,4 @@
 
 ## https://roopeshsn.github.io
 
-No frameworks! Built using pure html and css.
+No frameworks used! Built using pure html and css

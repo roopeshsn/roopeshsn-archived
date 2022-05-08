@@ -5,6 +5,7 @@
 }
 
 body {
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -22,25 +23,18 @@ main {
   padding: 1rem;
 }
 
+/* General Styles */
 a {
   text-decoration: none;
   color: blue;
 }
 
+.blue-500 {
+  color: blue;
+}
+
 a:hover {
   text-decoration: underline;
-}
-
-.ul-social-wrapper {
-  margin-top: 1rem;
-}
-
-.ul-social {
-  list-style-type: none;
-}
-
-.ul-social li {
-  display: inline;
 }
 
 b {
@@ -67,6 +61,29 @@ h4 {
   font-weight: 500;
 }
 
+.h-line {
+  border-bottom: 2px gainsboro solid;
+  padding-bottom: 0.5rem;
+}
+
+/* Margin styles */
+.mt-half {
+  margin-top: 0.5rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mb-half {
+  margin-bottom: 0.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+/* Styles for profile image and banner */
 .profile-pic-wrapper {
   margin-top: 1rem;
 }
@@ -82,26 +99,20 @@ h4 {
   display: none;
 }
 
-.mb-half {
-  margin-bottom: 0.5rem;
-}
-
-.mb-1 {
-  margin-bottom: 1rem;
-}
-
-.mt-half {
-  margin-top: 0.5rem;
-}
-
-.mt-1 {
+/* social links */
+.ul-social-wrapper {
   margin-top: 1rem;
 }
 
-.blue-500 {
-  color: blue;
+.ul-social {
+  list-style-type: none;
 }
 
+.ul-social li {
+  display: inline;
+}
+
+/* Styles for skills */
 .skill-badge {
   border: 2px gray solid;
   border-radius: 6px;
@@ -109,13 +120,9 @@ h4 {
   display: inline-block;
 }
 
-.h-line {
-  border-bottom: 2px gainsboro solid;
-  padding-bottom: 0.5rem;
-}
-
 footer {
   color: gray;
+  margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 640px) {
@@ -138,5 +145,9 @@ footer {
 
   .banner {
     flex-wrap: wrap;
+  }
+
+  footer {
+    margin-bottom: 0;
   }
 }

@@ -72,6 +72,10 @@ h4 {
 }
 
 /* Margin styles */
+.mt-half-half {
+  margin-top: 0.25rem;
+}
+
 .mt-half {
   margin-top: 0.5rem;
 }
@@ -91,7 +95,6 @@ h4 {
 /* Styles for profile image and banner */
 .header-container {
   display: flex;
-  align-items: center;
   flex-direction: column;
   justify-content: space-between;
   gap: 1rem;
@@ -102,6 +105,7 @@ h4 {
   width: 100%;
   height: auto;
   border-radius: 0.325rem;
+  align-self: flex-start;
 }
 
 .hide {
@@ -137,6 +141,7 @@ footer {
 @media only screen and (min-width: 640px) {
   .header-container {
     flex-direction: row;
+    align-items: center;
   }
 
   footer {

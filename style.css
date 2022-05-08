@@ -10,18 +10,29 @@ body {
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.container {
+.wrapper {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.ul-social-wrapper {
+  margin-top: 1rem;
 }
 
 .ul-social {
@@ -32,23 +43,100 @@ main {
   display: inline;
 }
 
+b {
+  font-weight: 500;
+}
+
 h1 {
   font-size: 2rem;
+  font-weight: 500;
 }
 
 h2 {
   font-size: 1.75rem;
+  font-weight: 500;
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
-h3 {
+h4 {
   font-size: 1.125rem;
+  font-weight: 500;
 }
 
-.profile-pic {
-  width: 200px;
-  height: 200px;
+.profile-pic-wrapper {
+  margin-top: 1rem;
+}
+
+.profile {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+.mb-half {
+  margin-bottom: 0.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mt-half {
+  margin-top: 0.5rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.blue-500 {
+  color: blue;
+}
+
+.skill-badge {
+  border: 2px gray solid;
+  border-radius: 6px;
+  padding: 0.25rem;
+  display: inline-block;
+}
+
+.h-line {
+  border-bottom: 2px gainsboro solid;
+  padding-bottom: 0.5rem;
+}
+
+footer {
+  color: gray;
+}
+
+@media only screen and (min-width: 640px) {
+  .profile-pic-wrapper {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .banner {
+    max-height: 150px;
+    width: 100%;
+    max-width: 520px;
+    border-radius: 0.5rem;
+    align-self: flex-end;
+  }
+
+  .hide {
+    display: block;
+  }
+
+  .banner {
+    flex-wrap: wrap;
+  }
 }

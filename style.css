@@ -46,11 +46,14 @@ b {
 h1 {
   font-size: 2rem;
   font-weight: 500;
+  line-height: 1;
+  margin-bottom: 0.25rem;
 }
 
 h2 {
   font-size: 1.75rem;
   font-weight: 500;
+  line-height: 1;
 }
 
 h3 {
@@ -86,15 +89,19 @@ h4 {
 }
 
 /* Styles for profile image and banner */
-.profile-pic-wrapper {
-  margin-top: 1rem;
+.header-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .profile {
-  max-width: 200px;
+  max-width: 175px;
   width: 100%;
   height: auto;
-  border-radius: 0.5rem;
+  border-radius: 0.325rem;
 }
 
 .hide {
@@ -128,25 +135,8 @@ footer {
 }
 
 @media only screen and (min-width: 640px) {
-  .profile-pic-wrapper {
-    display: flex;
-    gap: 0.5rem;
-  }
-
-  .banner {
-    max-height: 150px;
-    width: 100%;
-    max-width: 520px;
-    border-radius: 0.5rem;
-    align-self: flex-end;
-  }
-
-  .hide {
-    display: block;
-  }
-
-  .banner {
-    flex-wrap: wrap;
+  .header-container {
+    flex-direction: row;
   }
 
   footer {

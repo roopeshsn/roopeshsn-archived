@@ -66,6 +66,11 @@ h4 {
   font-weight: 500;
 }
 
+h5 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 .h-line {
   border-bottom: 2px gainsboro solid;
   padding-bottom: 0.5rem;

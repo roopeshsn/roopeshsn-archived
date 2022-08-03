@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  max-width: 768px;
+  max-width: 860px;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
@@ -130,6 +130,28 @@ h5 {
   display: inline;
 }
 
+.each-edu-wrapper,
+.each-exp-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.each-exp-comp {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.timeline {
+  color: gray;
+}
+
+/* .each-edu-wrapper-c2,
+.each-exp-wrapper-c2 {
+  justify-items: flex-end;
+} */
+
 /* Styles for skills */
 .skill-badge {
   border: 2px gray solid;
@@ -147,6 +169,18 @@ footer {
   .header-container {
     flex-direction: row;
     align-items: center;
+  }
+
+  .each-edu-wrapper,
+  .each-exp-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .each-edu-wrapper-c2,
+  .each-exp-wrapper-c2 {
+    justify-items: flex-end;
   }
 
   footer {

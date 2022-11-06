@@ -39,6 +39,7 @@
       href="./assets/favicon/favicon-16x16.png"
     />
     <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <main>
@@ -48,7 +49,8 @@
             <div class="header-container">
               <div class="header-content-wrapper">
                 <h1 class="mb-half">Roopesh Saravanan</h1>
-                <div>
+                <h2 class="name-tamil">ரூபேஷ் சரவணன்</h2>
+                <div class="mt-1">
                   <p>
                     A Final year student pursuing Electrical and Electronics
                     Engineering from B. S. Abdur Rahman Crescent Institute of
@@ -73,7 +75,7 @@
           </header>
 
           <section class="h-line">
-            <h2>👋 Welcome to one of my Internet spaces! "My Portfolio"</h2>
+            <h2>Hi, Welcome to one of my Internet spaces! "My Portfolio"</h2>
             <h3 class="mt-half">My other internet spaces</h3>
             <ul class="ul-social">
               <li>
@@ -112,50 +114,46 @@
                 >
               </li>
             </ul>
-            <div class="mt-half">
-              <h3>Assets</h3>
-              <div>
-                <h4>Want to download my photograph?</h4>
+            <div class="mt-1">
+              <div class="mt-half">
                 <div>
-                  <a href="/assets/images/passport_size_photograph.jpg" download
-                    >Click here to download my passport size photograph</a
-                  >
+                  <h4>Want to download my resume?</h4>
+                  <div>
+                    <a
+                      href="/assets/others/roopesh_resume_without_photo.pdf"
+                      download
+                      >Click here to download my resume</a
+                    >
+                  </div>
                 </div>
               </div>
-              <div>
-                <h4>Want to download my resume?</h4>
-                <div>
-                  <a
-                    href="/assets/others/roopesh_resume_without_photo.pdf"
-                    download
-                    >Click here to download my resume without photograph
-                    attached</a
-                  >
-                </div>
-                <div>
-                  <a
-                    href="/assets/others/roopesh_resume_with_photo.pdf"
-                    download
-                    >Click here to download my resume with photograph
-                    attached</a
-                  >
-                </div>
-              </div>
+              <span>
+                <a href="./assets.html">View more</a>
+              </span>
             </div>
           </section>
 
           <section class="h-line">
-            <h3 class="blue-500 mb-1">EXPERIENCE</h3>
+            <h3 class="section-heading blue-500 mb-1">EXPERIENCE</h3>
             <div class="each-exp-wrapper">
               <div class="mt-half">
                 <h4>Embedded Software Developer</h4>
                 <div class="each-exp-comp">
-                  <h5>Revoh Innovations</h5>
-                  <p>Internship</p>
+                  <h5>
+                    <a
+                      class="link-special"
+                      href="https://www.revoh.in/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Revoh Innovations</a
+                    >
+                  </h5>
+                  <span class="job-tag">Internship</span>
                 </div>
                 <p>
-                  Worked extensively with communication protocols like USART,
-                  I2C, SPI.
+                  Worked with various communication protocols like USART, SPI,
+                  and I2C. Implemented a Frequency Testing Device for their BLDC
+                  Motor Controller using the PWM technique.
                 </p>
               </div>
               <div class="each-exp-wrapper-c2">
@@ -165,12 +163,18 @@
           </section>
 
           <section class="h-line">
-            <h3 class="blue-500 mb-1">EDUCATION</h3>
+            <h3 class="section-heading blue-500 mb-1">EDUCATION</h3>
             <div class="each-edu-wrapper">
               <div>
                 <h4>
-                  B.S. Abdur Rahman Crescent Institute of Science and
-                  Technology, Vandalur, Chennai
+                  <a
+                    class="link-special"
+                    href="https://crescent.education"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >B.S. Abdur Rahman Crescent Institute of Science and
+                    Technology, Vandalur</a
+                  >
                 </h4>
                 <h5>
                   Bachelor of Technology (B. Tech) in Electrical and Electronics
@@ -179,15 +183,21 @@
                 <p><b>CGPA:</b> 9.18 (Till 6th Semester)</p>
               </div>
               <div class="each-edu-wrapper-c2">
-                <p class="timeline">2019 - 2023</p>
+                <p class="timeline">July 2019 - July 2023</p>
               </div>
             </div>
 
             <div class="mt-half">
               <div>
                 <h4>
-                  Don Bosco Matriculation Higher Secondary School,
-                  Erukkancherry, Chennai
+                  <a
+                    class="link-special"
+                    href="http://dberukkancheryfsm.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Don Bosco Matriculation Higher Secondary School,
+                    Erukkancherry, Chennai</a
+                  >
                 </h4>
                 <div class="each-edu-wrapper">
                   <div>
@@ -195,7 +205,7 @@
                     <p><b>Final score:</b> 78.67%</p>
                   </div>
                   <div class="each-edu-wrapper-c2">
-                    <p class="timeline">2018 - 2019</p>
+                    <p class="timeline">May 2018 - April 2019</p>
                   </div>
                 </div>
                 <div class="each-edu-wrapper">
@@ -204,7 +214,7 @@
                     <p><b>Final score:</b> 91.4%</p>
                   </div>
                   <div class="each-edu-wrapper-c2">
-                    <p class="timeline">2016 - 2017</p>
+                    <p class="timeline">May 2016 - April 2017</p>
                   </div>
                 </div>
               </div>
@@ -212,7 +222,7 @@
           </section>
 
           <section class="h-line">
-            <h3 class="blue-500 mb-1">PROJECTS</h3>
+            <h3 class="section-heading blue-500 mb-1">PROJECTS</h3>
             <!-- <div>
               <h4>IOT based Surveillance System</h4>
               <p>
@@ -224,6 +234,49 @@
             <div class="project">
               <h4>
                 <a
+                  href="https://github.com/roopeshsn/authnauth"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >AuthnAuth</a
+                >
+              </h4>
+              <p>
+                A dockerized demo project showcasing the auth process with
+                Kubernetes.
+              </p>
+            </div>
+
+            <div class="project mt-half">
+              <h4>
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >RF Communication using STM32</a
+                >
+              </h4>
+              <p>
+                Implemented RF Communciation using Transreceivers and STM32.
+              </p>
+            </div>
+
+            <div class="project mt-half">
+              <h4>
+                <a
+                  href="https://github.com/roopeshsn/room-slot-booking"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Room Slot Booking</a
+                >
+              </h4>
+              <p>
+                Room Slot Booking Project built with Python, Django, and Django
+                REST Framework. Built for Screening Task 1 for FOSSEE Summer
+                Fellowship 2022. Go through the Github repository to know more
+                about the project.
+              </p>
+            </div>
+
+            <div class="project mt-half">
+              <h4>
+                <a
                   href="https://github.com/roopeshsn/conception"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -233,7 +286,7 @@
               <p>
                 Conception is an Idea sharing platform where you can find ideas
                 on every niche. The best part is you can share your ideas
-                through a PR (Pull Request).
+                through a PR (Pull Request). Built with Next.js and MDX.
               </p>
             </div>
 
@@ -262,10 +315,12 @@
           </section>
 
           <section class="h-line">
-            <h3 class="blue-500 mb-1">SKILLS</h3>
+            <h3 class="section-heading blue-500 mb-1">SKILLS</h3>
             <div>
               <span class="skill-badge">C/C++</span>
               <span class="skill-badge">Embedded Systems</span>
+              <span class="skill-badge">ARM</span>
+              <span class="skill-badge">STM32</span>
               <span class="skill-badge">VHDL and FPGA Programming</span>
               <span class="skill-badge">Verilog</span>
               <span class="skill-badge">MATLAB</span>
@@ -279,12 +334,20 @@
               <span class="skill-badge">JavaScript</span>
               <span class="skill-badge">MERN Stack</span>
               <span class="skill-badge">SQL</span>
+              <span class="skill-badge">Docker</span>
+              <span class="skill-badge">Kubernetes</span>
             </div>
           </section>
 
           <section class="h-line">
-            <h3 class="blue-500 mb-1">CERTIFICATION</h3>
+            <h3 class="section-heading blue-500 mb-1">CERTIFICATION</h3>
             <div>
+              <h4>Applied Industrial IoT by L&T Edutech</h4>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >View Credential</a
+              >
+            </div>
+            <div class="mt-half">
               <h4>NPTEL Certification on Embedded System Design</h4>
               <a
                 href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS46S3446133502172371"
@@ -308,24 +371,34 @@
           </section>
 
           <section class="h-line">
-            <h3 class="blue-500 mb-1">VOLUNTEER EXPERIENCE</h3>
-            <div>
-              <h4>Project Manager, Crescent Technocrats Club</h4>
-              <p>
-                Collaborated with Crescent Technocrats Club to build college
-                software projects.
-              </p>
+            <h3 class="section-heading blue-500 mb-1">VOLUNTEER EXPERIENCE</h3>
+            <div class="each-exp-wrapper">
+              <div class="mt-half">
+                <h4>Project Manager, Crescent Technocrats Club</h4>
+                <p>
+                  Collaborated with Crescent Technocrats Club to build college
+                  software projects.
+                </p>
+              </div>
+              <div class="each-exp-wrapper-c2">
+                <p class="timeline">May 2022 - Present</p>
+              </div>
             </div>
-            <div class="mt-half">
-              <h4>CIIC RAI Membership</h4>
-              <p>
-                RAI is an acronym for Robotics, AI, and IoT which is a hands-on
-                training program.
-              </p>
+            <div class="each-exp-wrapper">
+              <div class="mt-half">
+                <h4>CIIC RAI Membership</h4>
+                <p>
+                  RAI is an acronym for Robotics, AI, and IoT which is a
+                  hands-on training program.
+                </p>
+              </div>
+              <div class="each-exp-wrapper-c2">
+                <p class="timeline">April 2022 - Present</p>
+              </div>
             </div>
           </section>
           <section class="h-line">
-            <h3 class="blue-500 mb-1">LANGUAGES KNOWN</h3>
+            <h3 class="section-heading blue-500 mb-1">LANGUAGES KNOWN</h3>
             <div>
               <p><b>English</b> - Professional working proficiency</p>
               <p><b>Tamil</b> - Native proficiency</p>

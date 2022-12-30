@@ -1,0 +1,1 @@
+Hi there! My name is Roopesh, and I am a final-year student pursuing Electrical and Electronics Engineering from a tier-3 college. I am passionate about both Hardware and Software engineering, particularly in Embedded Systems, Computer Networking, Cloud, and the Web. I am able to effectively self-manage during independent projects as well as collaborate as part of a team.

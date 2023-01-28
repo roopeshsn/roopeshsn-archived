@@ -135,6 +135,29 @@
             <h3 class="section-heading blue-500 mb-1">EXPERIENCE</h3>
             <div class="each-exp-wrapper">
               <div class="mt-half">
+                <h4>Software Engineer</h4>
+                <div class="each-exp-comp">
+                  <h5>
+                    <a
+                      class="link-special"
+                      href="https://www.pando.ai/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Pando</a
+                    >
+                  </h5>
+                  <span class="job-tag">Internship</span>
+                </div>
+                <div>
+                  <p>To be updated</p>
+                </div>
+              </div>
+              <div class="each-exp-wrapper-c2">
+                <p class="timeline">Jan 2023 - Present</p>
+              </div>
+            </div>
+            <div class="each-exp-wrapper">
+              <div class="mt-half">
                 <h4>Embedded Software Developer</h4>
                 <div class="each-exp-comp">
                   <h5>
@@ -148,11 +171,13 @@
                   </h5>
                   <span class="job-tag">Internship</span>
                 </div>
-                <p>
-                  I worked with various communication protocols like USART, SPI,
-                  and I2C. Implemented a Frequency Testing Device for their BLDC
-                  Motor Controller using the PWM technique.
-                </p>
+                <div>
+                  <p>
+                    I worked with various communication protocols like USART,
+                    SPI, and I2C. Implemented a Frequency Testing Device for
+                    their BLDC Motor Controller using the PWM technique.
+                  </p>
+                </div>
               </div>
               <div class="each-exp-wrapper-c2">
                 <p class="timeline">Aug 2022 - 1 month</p>
@@ -395,9 +420,16 @@
               <p><b>Tamil</b> - Native proficiency</p>
             </div>
           </section>
-          <footer>Copyright &copy; 2022 Roopesh Saravanan</footer>
+          <footer>
+            Copyright &copy; <span id="copyright-year">YYYY</span> Roopesh
+            Saravanan
+          </footer>
         </div>
       </div>
     </main>
+    <script>
+      document.querySelector("#copyright-year").innerText =
+        new Date().getFullYear()
+    </script>
   </body>
 </html>

@@ -1,8 +1,1 @@
-# Roopesh's Online Resume
-
-## https://roopeshsn.github.io
-
-This repository contains the code for my personal portfolio website consisting of my work experience, education, side projects, certifications, and volunteer experience.
-
-A single page website!
-No frameworks used! Built using pure HTML and CSS.
+Hi there! I am a final-year student pursuing Electrical and Electronics Engineering from a tier-3 college. I am passionate about both Hardware and Software engineering, particularly in Embedded Systems, Computer Networking, Cloud, and the Web. I am able to effectively self-manage during independent projects as well as collaborate as part of a team.
